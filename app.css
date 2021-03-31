@@ -1,0 +1,48 @@
+html{
+    font-family: 'Roboto', sans-serif;}
+
+body{
+    background-image: url(top-image.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-item a{
+    color: whitesmoke;
+}
+.container-fluid a{
+    color: whitesmoke;
+}
+
+.navbar{
+    margin-bottom: 2em;
+}
+
+.col-5{
+    background-color: #023e8a;
+    color: whitesmoke;
+    border-radius: 4px;
+    padding: 10px;
+    height: 60vh;
+}
+
+.col-5 img{
+    width:  70%;
+    margin-top: 50px;
+    transition: 1s;
+}
+.col-5 h1{
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+
+.text-left p{
+    margin-top: 60px;
+}
+.col-5 img:hover{
+    transform: scale(1.2);
+}
+#chelsea{
+    margin-top: 90px;
+}
